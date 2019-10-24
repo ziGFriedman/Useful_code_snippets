@@ -10,4 +10,4 @@ def count_by(arr, fn = lambda x: x):
 
 from math import floor
 print(count_by([6.1, 4.2, 6.3], floor))
-print(count_by(['one', 'two', 'three'], len)) 
+print(count_by(['one', 'two', 'three'], len))
