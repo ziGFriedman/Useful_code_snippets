@@ -14,4 +14,4 @@ def deep_flatten(arr):
     result.extend(spread(list(map(lambda x: deep_flatten(x) if type(x) == list else x, arr))))
     return result
 
-print(deep_flatten([1, [2], [[3], 4], 5]))
+print(deep_flatten([1, [2], [[3], 4, 5], 5]))
